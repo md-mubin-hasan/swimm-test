@@ -75,6 +75,7 @@ int main() {
     bst.insert(7);
     bst.insert(9);
     bst.insert(11);
+    // This will be ignored as it is a duplicate
     bst.insert(13);
 
     cout << "Searching for 6: " << (bst.search(6) ? "Found" : "Not found") << endl;
