@@ -9,7 +9,7 @@ This doc describes the {{SUBJECT}} flow in our system. We will follow its implem
 
 &nbsp;
 
-<SwmSnippet path="bst.cpp" line="5">
+<SwmSnippet path="/bst.cpp" line="5">
 
 ---
 
