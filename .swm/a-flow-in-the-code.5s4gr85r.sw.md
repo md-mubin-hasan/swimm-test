@@ -68,4 +68,37 @@ public:
 
 </SwmSnippet>
 
+<SwmSnippet path="/bst.cpp" line="65">
+
+---
+
+This is the main function.
+
+```c++
+int main() {
+    BST bst;
+
+    bst.insert(8);
+    bst.insert(3);
+    bst.insert(10);
+    bst.insert(1);
+    bst.insert(6);
+    bst.insert(14);
+    bst.insert(4);
+    bst.insert(7);
+    bst.insert(9);
+    bst.insert(11);
+    bst.insert(13);
+
+    cout << "Searching for 6: " << (bst.search(6) ? "Found" : "Not found") << endl;
+    cout << "Searching for 12: " << (bst.search(12) ? "Found" : "Not found") << endl;
+
+    return 0;
+}
+```
+
+---
+
+</SwmSnippet>
+
 <SwmMeta version="3.0.0" repo-id="Z2l0aHViJTNBJTNBc3dpbW0tdGVzdCUzQSUzQW1kLW11YmluLWhhc2Fu" repo-name="swimm-test"><sup>Powered by [Swimm](https://app.swimm.io/)</sup></SwmMeta>

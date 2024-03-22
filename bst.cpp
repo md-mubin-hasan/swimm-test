@@ -73,6 +73,8 @@ int main() {
     bst.insert(14);
     bst.insert(4);
     bst.insert(7);
+    bst.insert(9);
+    bst.insert(11);
     bst.insert(13);
 
     cout << "Searching for 6: " << (bst.search(6) ? "Found" : "Not found") << endl;
